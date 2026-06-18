@@ -117,18 +117,10 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* ---------- Contact form ----------
-     Front-end only: wire this up to a real backend
-     (Formspree, Google Sheets, your own server, etc.)
-     before relying on it to receive enquiries. */
-  var contactForm = document.getElementById('contact-form');
-var formSuccess = document.getElementById('form-success');
+     var contactForm = document.getElementById('contact-form');
 
 if (contactForm) {
-  contactForm.addEventListener('submit', function (e) {
-    e.preventDefault();
-    if (!contactForm.checkValidity()) return;
-
-    formSuccess.hidden = false;
-    contactForm.reset();
+  contactForm.addEventListener('submit', function () {
+    console.log('Form submitted');
   });
 }
