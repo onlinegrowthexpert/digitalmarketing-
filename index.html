@@ -587,7 +587,11 @@
       <h2>Tell us about your business. We'll tell you what we'd do first.</h2>
 
       <!-- This form is front-end only. Connect it to a form backend (e.g. Formspree, Google Sheets, or your own server) to actually receive submissions. -->
-      <form class="contact-form" id="contact-form">
+      <form
+  class="contact-form"
+  action="https://formsubmit.co/webdevelopmentandigitalmarket@gmail.com"
+  method="POST"
+>
         <div class="form-row">
           <div class="form-field">
             <label for="name">Name</label>
@@ -616,11 +620,6 @@
               <option>Something else</option>
             </select>
           </div>
-        </div>
-
-        <div class="form-field">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
         </div>
 
         <button type="submit" class="btn btn--primary">Send Message</button>
