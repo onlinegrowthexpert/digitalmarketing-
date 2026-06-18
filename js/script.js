@@ -120,10 +120,15 @@ document.addEventListener('DOMContentLoaded', function () {
      Front-end only: wire this up to a real backend
      (Formspree, Google Sheets, your own server, etc.)
      before relying on it to receive enquiries. */
-  <form
-  class="contact-form"
-  action="https://formsubmit.co/webdevelopmentandigitalmarket@gmail.com"
-  method="POST"
->
-});
+  var contactForm = document.getElementById('contact-form');
+var formSuccess = document.getElementById('form-success');
+
+if (contactForm) {
+  contactForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!contactForm.checkValidity()) return;
+
+    formSuccess.hidden = false;
+    contactForm.reset();
+  });
 }
