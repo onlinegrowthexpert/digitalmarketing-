@@ -125,3 +125,5 @@ document.addEventListener('DOMContentLoaded', function () {
   action="https://formsubmit.co/webdevelopmentandigitalmarket@gmail.com"
   method="POST"
 >
+});
+}
