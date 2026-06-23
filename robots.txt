@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://onlinegrowthexpert.github.io/digitalmarketing/sitemap.xml
