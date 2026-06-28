@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Web Development And Digital Marketing Expert</title>
+<meta name="description" content="Get in touch with Web Development And Digital Marketing Expert — call, WhatsApp, or send a message for a free SEO and website audit. Based in Ayodhya, Uttar Pradesh, serving worldwide.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact Us | Web Development And Digital Marketing Expert">
+<meta property="og:description" content="Call, WhatsApp, or send us a message for a free SEO and website audit.">
+<meta property="og:image" content="images/Without name Logo.png">
+<meta property="og:url" content="https://www.yourdomain.com/contact-us.html">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="images/Without name Logo.png">
+<link rel="canonical" href="https://www.yourdomain.com/contact-us.html">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<!-- Shared site stylesheet (header, footer, buttons, colours, type) -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- ============================================================
+     PAGE-ONLY CSS — just the map embed sizing for this page.
+     Everything else reuses .hero, .contact-grid, .contact-form,
+     .contact-info, .section etc. from css/style.css as-is.
+============================================================ -->
+<style>
+  .map-embed {
+    width: 100%;
+    height: 360px;
+    border: 0;
+    border-radius: var(--radius);
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="site-header">
+  <div class="container nav-wrap">
+
+    <a href="index.html" class="brand">
+      <img src="images/Without name Logo.png" alt="Web Development And Digital Marketing Expert logo">
+    </a>
+
+    <nav class="nav" id="site-nav">
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="index.html#packages">Packages</a></li>
+        <li><a href="course.html">Course</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="contact-us.html" class="is-active" aria-current="page">Contact us</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-right">
+      <a href="tel:+919161261136" class="nav-phone">+91 91612 61136</a>
+      <a href="#contact" class="btn btn--primary btn--sm">Free Audit</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container">
+    <div class="page-hero-inner reveal">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h1>Let's talk about your business goals.</h1>
+      <p class="lead">
+        Whether you need a free SEO and website audit, a new site, or want details on our digital
+        marketing course — send us a message and a real person on our team will get back to you.
+      </p>
+
+      <div class="hero-actions">
+        <a href="tel:+919161261136" class="btn btn--primary">Call +91 91612 61136</a>
+        <a href="https://wa.me/919161261136" class="btn btn--ghost" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+
+      <ul class="hero-trust">
+        <li>Usually replies within a few hours</li>
+        <li>Mon – Sat, 10:00 AM – 7:00 PM IST</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section section--dark">
+  <div class="container contact-grid">
+
+    <div class="reveal">
+      <p class="eyebrow">SEND A MESSAGE</p>
+      <h2>Tell us about your business. We'll tell you what we'd do first.</h2>
+
+      <form
+        class="contact-form"
+        action="https://formsubmit.co/webdevelopmentandigitalmarket@gmail.com"
+        method="POST"
+      >
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-field">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option>SEO Services</option>
+              <option>Website Development</option>
+              <option>Paid Ads</option>
+              <option>Social Media (SMO)</option>
+              <option>App Development</option>
+              <option>Digital Marketing Course</option>
+              <option>Something else</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <!-- Hidden Fields -->
+        <input type="hidden" name="_subject" value="New Lead From Contact Page">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://onlinegrowthexpert.github.io/digitalmarketing/thankyou-page.html">
+
+        <button type="submit" class="btn btn--primary">Send Message</button>
+        <p class="form-success" id="form-success" hidden>Thanks — we've received your message and will get back to you shortly.</p>
+      </form>
+    </div>
+
+    <div class="contact-info reveal">
+      <div class="info-card">
+        <p class="info-label">Email</p>
+        <a href="mailto:webdevelopmentandigitalmarket@gmail.com">webdevelopmentandigitalmarket@gmail.com</a>
+      </div>
+      <div class="info-card">
+        <p class="info-label">Phone</p>
+        <a href="tel:+919161261136">+91 91612 61136</a>
+      </div>
+      <div class="info-card">
+        <p class="info-label">Location</p>
+        <p>Sahadatganj, Ayodhya, Uttar Pradesh 224001, India</p>
+      </div>
+      <div class="info-card">
+        <p class="info-label">Working Hours</p>
+        <p>Mon – Sat, 10:00 AM – 7:00 PM IST</p>
+      </div>
+      <a href="https://wa.me/919161261136" class="btn btn--ghost" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ MAP ============ -->
+<section class="section section--light">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">VISIT US</p>
+      <h2>Based in Ayodhya, working with clients everywhere.</h2>
+    </div>
+
+    <div class="reveal">
+      <iframe
+        class="map-embed"
+        src="https://www.google.com/maps?q=Sahadatganj,+Ayodhya,+Uttar+Pradesh+224001&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Map showing our location in Sahadatganj, Ayodhya, Uttar Pradesh">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="cta-band reveal">
+  <div class="container cta-band__inner">
+    <h2>Prefer a quick chat over a form?</h2>
+    <div class="hero-actions">
+      <a href="https://wa.me/919161261136" class="btn btn--dark" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      <a href="tel:+919161261136" class="btn btn--outline-dark">Call Us Now</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+
+    <div>
+      <img src="images/Without name Logo.png" alt="Web Development And Digital Marketing Expert logo" class="footer-logo">
+      <p>SEO, website development and digital marketing services for local businesses and ecommerce
+      brands, from Ayodhya to anywhere.</p>
+      <div class="social-row">
+        <a href="https://www.facebook.com/profile.php?id=61580588763908" aria-label="Facebook" class="social-icon" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v6h3v-6h3l1-3h-4v-2c0-.6.4-1 1-1z"></path></svg></a>
+        <a href="https://www.instagram.com/online.business.growth.expert/" aria-label="Instagram" class="social-icon" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="currentColor"></circle></svg></a>
+        <a href="https://www.linkedin.com/in/web-development-and-digital-marketing-expert-3a8a39415/" aria-label="LinkedIn" class="social-icon" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"></rect><line x1="7" y1="10" x2="7" y2="17"></line><circle cx="7" cy="6.5" r="1" fill="currentColor"></circle><line x1="11" y1="10" x2="11" y2="17"></line><path d="M11 13c0-2 2-3 3.5-2.4 1 .4 1.5 1.3 1.5 2.4v4"></path></svg></a>
+      </div>
+    </div>
+
+    <div>
+      <p class="footer-heading">Quick Links</p>
+      <ul>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="index.html#process">Process</a></li>
+        <li><a href="index.html#results">Results</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="footer-heading">Services</p>
+      <ul>
+        <li><a href="services.html#seo">SEO Services</a></li>
+        <li><a href="services.html#website-development">Website Development</a></li>
+        <li><a href="services.html#ads">Paid Ads</a></li>
+        <li><a href="course.html">Digital Marketing Course</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="footer-heading">Stay Updated</p>
+      <p>Occasional SEO tips and project updates — no spam.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Subscribed';">
+        <input type="email" placeholder="Your email" required aria-label="Email for newsletter">
+        <button type="submit">Join</button>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© 2026 Web Development And Digital Marketing Expert. All Rights Reserved.</p>
+    <div class="footer-bottom-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FLOATING BUTTONS ============ -->
+<a href="https://wa.me/919161261136" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M4 20l1.4-4.2A8 8 0 1 1 9 19.5z"></path><path d="M9 9c0 2.5 2.5 6 5.5 6 1 0 1.5-1 1-2l-1-1.5-1.5.5-2-2 .5-1.5L10.5 7C9.5 7 9 8 9 9z" fill="currentColor"></path></svg>
+</a>
+
+<button class="back-to-top" id="back-to-top" aria-label="Back to top" hidden>
+  <svg viewBox="0 0 24 24"><polyline points="6 14 12 8 18 14"></polyline></svg>
+</button>
+
+<!-- Shared site script (mobile nav, scroll reveal, header shadow, back-to-top, contact-form success) -->
+<script src="js/script.js"></script>
+</body>
+</html>
